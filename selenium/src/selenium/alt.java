@@ -23,6 +23,7 @@ public class alt {
 			e.printStackTrace();
 		}
 		//comment
+		//bbbbb
 		driver.findElement(By.xpath("//a[@class='applynowknowmore'][contains(text(),'Know More')]")).click();
 		WebDriverWait wait = new WebDriverWait(driver,20);
 	WebElement	knowMore=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='product product1 active']//div[@class='detailBox frontDetailBox']//a[@class='applynowknowmore'][contains(text(),'Know More')]")));
