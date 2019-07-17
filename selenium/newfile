@@ -1,1 +1,25 @@
-ffghh
+Select a.FirstName, a.LastName,b.city,b.state from c a, Adress b where a.PersonId=b.PersonId;
+
+Select 
+
+
+//SELECT  email FROM person GROUP BY  email HAVING COUNT(email) > 1
+
+Negative scenarios:
+
+Check if user is getting relevant result
+Check if Product name ,image,  price on search page is same on product display page
+2. Add cart adds product to bag with same quantity
+3. Check Price is same
+4. Change the quantity check price is updated
+5.  If quality is fixed try to increase quantity and check for error message
+6. Check for delivery date
+7.  Check price details should be correct
+8.  Check click on product name user is navigated to pdp
+9.  Check for offer applied and offer description
+10. cHeck link save for later and remove are working fine
+11. Check place order button is enabled
+12. Enter correct pin code to check delivery
+13. Enter wrong pin code to check delivery
+14. Check clicking on place order page is navigating to checkout page.
+
